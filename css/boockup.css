@@ -157,26 +157,11 @@ a {
 }
 .book-back {
   background-image: url('../images/book-back.jpg');
+  background-size: cover;
   width: 350.66px;
   height: 475.26px;
   -webkit-transform: translate3d(-175.33px ,-237.63px ,4.45px) translate3d(0,0, -8.9px) rotateY(180deg);
   transform: translate3d(-175.33px ,-237.63px ,4.45px) translate3d(0,0, -8.9px) rotateY(180deg);
 }
-#credit {
-  position: fixed;
-  bottom: 1em;
-  right: 1em;
-  z-index: 99;
-  background-color: #fff;
-  border-radius: 8px;
-  box-sizing: border-box;
-  padding: .3rem 1rem;
-  width: 21rem;
-  height: 20px;
-  -webkit-transition: background .2s;
-  transition: background .2s;
-}
-#credit:hover {
-  background-color: #d8d8d8;
-}
+
 
